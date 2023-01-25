@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-// import ArticleList from '../components/ArticleList'
+import ArticleList from '../components/ArticleList'
 
 const MainContainer = () => {
     const [allTitles, setAllTitles] = useState([])
@@ -47,7 +47,7 @@ const MainContainer = () => {
     return (
         <div>
             <h1>Hello!</h1>
-            {/* <ArticleList allTitles = {allTitles}/> */}
+            <ArticleList allTitles = {allTitles}/>
         </div>
     )
 }
